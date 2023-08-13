@@ -61,10 +61,10 @@ public class PlayerUtilities : MonoBehaviour
     
     public void UnequipTorso()
     {
-        MyClothes.Add(HeadObject);
-        HeadObject = string.Empty;
-        SlotHead.UnequipButton.gameObject.SetActive(false);
-        SlotHead.VerifySlot();
+        MyClothes.Add(TorsoObject);
+        TorsoObject = string.Empty;
+        SlotTorso.UnequipButton.gameObject.SetActive(false);
+        SlotTorso.VerifySlot();
         VerifyCloths();
         Inventory.DestroyAll();
         Inventory.SpawnAll();
