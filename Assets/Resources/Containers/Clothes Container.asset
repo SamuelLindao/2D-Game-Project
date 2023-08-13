@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3adf57c1e87d6641bac79bee2cb873b, type: 3}
+  m_Name: Clothes Container
+  m_EditorClassIdentifier: 
+  Cloths:
+  - ClothName: Head Test
+    Cloth: {fileID: 5613012342445228623, guid: bd7360ad10275d14fb3a5fe9a87e1694, type: 3}
+    ClothType: 0
+    Item:
+      ItemIcon: {fileID: 15097304, guid: 706d1ba2a5e5b314b964757ffe9b2bd1, type: 3}
+      ItemId: 592
+      Price: 2000
+  - ClothName: Torso Test
+    Cloth: {fileID: 1126120709911042678, guid: bab9cb092168651478cc7924db13eeb5, type: 3}
+    ClothType: 1
+    Item:
+      ItemIcon: {fileID: 178075356, guid: eb099cbd882d4524da1bea45ecf58460, type: 3}
+      ItemId: 532523
+      Price: 2000
